@@ -1,14 +1,14 @@
-# Mit-Budget.dk
+# budget.jhsoftware.dk
 
-See <https://mit-budget.dk> (Danish language)
+See <https://budget.jhsoftware.dk> (Danish language)
 
-Mit-Budget.dk is available in 3 editions:
+budget.jhsoftware.dk is available in 3 editions:
 
-- A Katla.js(*) edition (<https://mit-budget.dk>)
-- A [Svelte](https://svelte.dev) edition (<https://mit-budget.dk/svelte>)
-- A [Vue.js](https://vuejs.org) edition (<https://mit-budget.dk/vue>)
+- A Katla.js(*) edition (<https://budget.jhsoftware.dk>)
+- A [Svelte](https://svelte.dev) edition (<https://budget.jhsoftware.dk/svelte>)
+- A [Vue.js](https://vuejs.org) edition (<https://budget.jhsoftware.dk/vue>)
 
-Read the background story at https://jesperhoy.dk/svelte-vs-vuejs
+Read the background story at https://jesperhoy.dev/svelte-vs-vuejs
 
 (*) "Katla.js" is my own home-grown front-end-framework.
 

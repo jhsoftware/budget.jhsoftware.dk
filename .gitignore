@@ -5,3 +5,4 @@ website/obj
 *.user
 publish
 src-svelte/node_modules
+.idea

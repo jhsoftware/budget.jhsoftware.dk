@@ -5,7 +5,6 @@ app.UseJAH("ws-mitbudget");
 app.UseStatusCodePages();
 
 if (!app.Environment.IsDevelopment()) {
-  app.UseDomainRedirection("mit-budget.dk");
   app.UseHttpsRedirection();
 } else {
   app.UseDeveloperExceptionPage();

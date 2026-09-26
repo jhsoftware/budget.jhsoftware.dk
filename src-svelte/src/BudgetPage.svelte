@@ -568,7 +568,7 @@ function BrowserKanDele() {
 }
 function DelUrl() {
 	navigator.share({
-		title: 'Mit-Budget.dk - ' + $Budget.navn,
+		title: 'budget.jhsoftware.dk - ' + $Budget.navn,
 		url: window.location.href	});
 }
 function KlikNyt() {

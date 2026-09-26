@@ -245,7 +245,7 @@ staticRenderFns:[new Function('with(this){return _c(\'div\',{staticClass:"spinne
       },
       DelUrl() {
         navigator.share({
-          title: 'Mit-Budget.dk - ' + this.budget.navn,
+          title: 'budget.jhsoftware.dk - ' + this.budget.navn,
           url: window.location.href
         });
       },
@@ -305,7 +305,7 @@ staticRenderFns:[new Function('with(this){return _c(\'div\',{staticClass:"spinne
     },
     watch: {
       "budget.navn": function (ny, gl) {
-        document.title = 'Mit-Budget.dk' + (this.budget === null || this.budget.navn==='' ? '' : ' - ' + this.budget.navn);
+        document.title = 'budget.jhsoftware.dk' + (this.budget === null || this.budget.navn==='' ? '' : ' - ' + this.budget.navn);
       }
     }
 

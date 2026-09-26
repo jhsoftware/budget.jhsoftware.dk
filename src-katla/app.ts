@@ -212,7 +212,7 @@ async function KlikSletSky():Promise<void> {
 
 function DelUrl():void {
   navigator.share({
-    title: 'Mit-Budget.dk - ' + budget.navn,
+    title: 'budget.jhsoftware.dk - ' + budget.navn,
     url: window.location.href
   });
 }
@@ -402,7 +402,7 @@ function FixDato(year:number, monthIdx:number, day:number):Date {
 // ----------------------------------------------------------------------------
 
 function RenderApp() {
-  document.title = 'Mit-Budget.dk' + (!budget || budget.navn==='' ? '' : ' - ' + budget.navn);
+  document.title = 'budget.jhsoftware.dk' + (!budget || budget.navn==='' ? '' : ' - ' + budget.navn);
 
   return html`<div>
     ${budgetid===null?html` 
