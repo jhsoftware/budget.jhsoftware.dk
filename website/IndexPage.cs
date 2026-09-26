@@ -117,7 +117,7 @@ if(h.length>1) {
   var nyurl="https://budget.jhsoftware.dk/"+h;
   document.write(`<p>Dit budget findes nu på adressen: <a href="${nyurl}">${nyurl}</a></p>
 <p><b>VIGTIGT:</b> Gem den nye addresse et sikkert sted.<br/>
-Den gamle adresse (under mit-budget.dk) vil <b>IKKE</b> virke efter 31.3.2027.</p>`);
+Den gamle adresse (under mit-budget.dk) vil <b>IKKE</b> virke efter 31.12.2026.</p>`);
 }
 </script>
 
